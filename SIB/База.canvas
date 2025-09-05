@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"0a703c457ec1d4cb","type":"file","file":"Доки/ГОСТ Р ИСО МЭК ТО 15408/ГОСТ Р ИСО МЭК ТО 15408-1-2012.md","x":-324,"y":-998,"width":400,"height":400},
+		{"id":"c5f7b46bc901c6e7","type":"file","file":"Доки/ГОСТ Р ИСО МЭК ТО 15408/ГОСТ Р ИСО МЭК ТО 15408-3-2013.md","x":680,"y":-998,"width":400,"height":400},
+		{"id":"de8f7b658d6c3ef0","type":"file","file":"Доки/ГОСТ Р 57628-2017.md","x":-960,"y":-598,"width":400,"height":400},
+		{"id":"9ee2249d255165b5","type":"file","file":"Доки/Анализ уязвимостей/ГОСТ Р 18045-2013.md","x":164,"y":-320,"width":400,"height":400},
+		{"id":"ebd0440694452ad2","type":"file","file":"Доки/Анализ уязвимостей/ГОСТ Р 58143-2018.md","x":-324,"y":320,"width":400,"height":400},
+		{"id":"ef1881be26bed846","type":"file","file":"Доки/Анализ уязвимостей/ГОСТ Р 58142-2018.md","x":164,"y":320,"width":400,"height":400},
+		{"id":"17758354416181c8","type":"file","file":"Доки/Анализ уязвимостей/ГОСТ Р 56545-2015.md","x":880,"y":80,"width":400,"height":400},
+		{"id":"ccb6a4eefd566a17","type":"file","file":"Доки/Анализ уязвимостей/ГОСТ Р 56546-2015.md","x":880,"y":720,"width":400,"height":400},
+		{"id":"3a11dcf5126e6053","type":"file","file":"Доки/ГОСТ Р 56939-2024.md","x":1568,"y":-360,"width":400,"height":400},
+		{"id":"4c1aaad6c88aa015","type":"file","file":"Доки/ГОСТ Р 58412-2019.md","x":1568,"y":320,"width":400,"height":400},
+		{"id":"1dca5f2316778e8f","type":"file","file":"Доки/ГОСТ Р 27034-2014.md","x":2240,"y":-760,"width":400,"height":400},
+		{"id":"74523c118254d3b8","type":"file","file":"Доки/ГОСТ Р 54581-2011.md","x":2240,"y":-160,"width":400,"height":400},
+		{"id":"76e92f1744f4e14d","type":"file","file":"Доки/ГОСТ Р 54582-2011.md","x":2720,"y":-160,"width":400,"height":400},
+		{"id":"79a07e30280030d8","type":"file","file":"Доки/ГОСТ Р 54583-2011.md","x":3200,"y":-160,"width":400,"height":400},
+		{"id":"2d29b363b9301343","type":"text","text":"Представляет требования и элементы действий, которые организация может реализовать в качестве мер и средств контроля и управления безопасностью приложений","x":1160,"y":-1240,"width":470,"height":160},
+		{"id":"208bada83bec1656","type":"file","file":"Доки/ГОСТ Р ИСО МЭК ТО 15408/ГОСТ Р ИСО МЭК ТО 15408-2-2013.md","x":164,"y":-998,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"34b0e7b0f8bbf8b2","fromNode":"2d29b363b9301343","fromSide":"left","toNode":"c5f7b46bc901c6e7","toSide":"top"},
+		{"id":"2d470811ada58713","fromNode":"2d29b363b9301343","fromSide":"left","toNode":"208bada83bec1656","toSide":"top"},
+		{"id":"4a86745d8bb98daf","fromNode":"2d29b363b9301343","fromSide":"left","toNode":"0a703c457ec1d4cb","toSide":"top"},
+		{"id":"c95f2e51ca631854","fromNode":"2d29b363b9301343","fromSide":"right","toNode":"1dca5f2316778e8f","toSide":"top"},
+		{"id":"6f95caeef8fb44c9","fromNode":"208bada83bec1656","fromSide":"bottom","toNode":"9ee2249d255165b5","toSide":"top","label":"Уточнения"},
+		{"id":"cec53980d1a8cdb3","fromNode":"9ee2249d255165b5","fromSide":"left","toNode":"ebd0440694452ad2","toSide":"top","label":"Расписывает процесс\nтестирования"},
+		{"id":"4952caa654074c88","fromNode":"9ee2249d255165b5","fromSide":"bottom","toNode":"ef1881be26bed846","toSide":"top","label":"Уточняет"},
+		{"id":"f686c14520966662","fromNode":"ef1881be26bed846","fromSide":"right","toNode":"17758354416181c8","toSide":"left","label":"Использует\nклассификацию"},
+		{"id":"dd6ebd5e1d285f49","fromNode":"ef1881be26bed846","fromSide":"bottom","toNode":"ccb6a4eefd566a17","toSide":"left","label":"Использует описание\nуязвимостей"},
+		{"id":"b89ef57d242a1ffd","fromNode":"0a703c457ec1d4cb","fromSide":"left","toNode":"de8f7b658d6c3ef0","toSide":"top","label":"Содержит руководство по разработке профилей защиты"},
+		{"id":"d64345001dfe9b2d","fromNode":"c5f7b46bc901c6e7","fromSide":"right","toNode":"3a11dcf5126e6053","toSide":"left","label":"Конкретизирует и расширяет"},
+		{"id":"746e438eb6bd3ac4","fromNode":"3a11dcf5126e6053","fromSide":"bottom","toNode":"4c1aaad6c88aa015","toSide":"top","label":"Расписывает угрозы безопасности"},
+		{"id":"921dc8fa45552667","fromNode":"1dca5f2316778e8f","fromSide":"bottom","toNode":"74523c118254d3b8","toSide":"top","label":"Помогает применять и отражать принцип доверия"},
+		{"id":"ada474397713fce7","fromNode":"1dca5f2316778e8f","fromSide":"right","toNode":"76e92f1744f4e14d","toSide":"top"},
+		{"id":"d89b80581fbbd820","fromNode":"1dca5f2316778e8f","fromSide":"right","toNode":"79a07e30280030d8","toSide":"top","label":"Содействует сценариям обеспечения доверия"}
+	]
+}
