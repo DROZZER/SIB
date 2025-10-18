@@ -2,7 +2,7 @@ Common Weakness Enumeration - перечень типовых недостатк
 
 Для примера можно взять [список](https://cwe.mitre.org/top25/archive/2024/2024_cwe_top25.html) из 25 самых популярных недостатков в программном обеспечении на 2024 год:
 1. XSS (CWE-79)
-2. Запись "за границы" (CWE-787)
+2. Out-of-bounds Write (CWE-787)
 3. SQLi (CWE-89)
 4. CSRF (CWE-352)
 5.  Path Traversal (CWE-22)
